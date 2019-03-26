@@ -1,0 +1,86 @@
+cd dekstop - otworz katalok dekstop
+cd .. - powrot do folderu nadrzednego
+ls - wyswietl pliki i katalogi
+ls -a   - wyswietl wszystkie pliki i katalogi razem z ukrytymi
+mkdir tworzenie katalogu
+clear - czysci konsole
+git init - inicjacja repozytorium w aktualnym folderze
+rm - usun plik
+rm -rf usun pliki i katalogi
+stalka w gore - ostatnia komenda
+tab - uzupelnienie polecenia
+nano plik.txt - stworzenie pliku txt
+
+git status - status plikow (working dir, staging area, repository)
+git add plik.txt - dodanie plik txt do staging area
+git commit - zapisanie plików
+git config --global user.name "lukaszko" - ustawienie nazwy w configu lukaszko
+git config --global user.email "dnb8@o2.pl" - ustawienie email w config
+git config --global core.editor nano - ustawienie w confgigu domyslnego edytora nano
+cd ~ - glowny katalog
+nano .gitcongig - otworzenie globalnego configu
+git commit -m "komentarz" - dodanie komentarza do commitu
+nano .gitkeep - zaloezenie pustego pliku w nowym katalogu, daje mozliwosc commitowania katalogu do repo
+git add -A - dodanie wszystkich zmian do staging arena
+
+git diff - wyswietlenie zmian pomiedzy work dir a rep
+git diff -- staged - wyswiatlanie zmian pomiedzy staged area a rep
+
+git difftool  -  wyswietlanie zmian za pomoca bardzies zaawansowanego narzedzia, domyslnie vi, mozna dosinstalowac inne
+git difftol --staged - wyswiatlanie zmian pomiedzy staged area a rep, vi lub inne
+
+
+git log - wyswietlenie historii
+git checkout nr - sprawdzeninie poprzednich stanow commita
+
+git log --oneline  -  wyswietlenie wersji skroconej loga
+git log -2   - wyswietlenie 2 ostatnich commitow
+git log --graph - wersja graficzna loga
+
+git reset nr -- soft - cofniecie commitow do staged arena
+git reset nr -- mixed - cofniecie commitow ( oraz plików z staging area) do working dir
+git reset HEAD - cofniecie plikow z staging area do working dir ( podwarunkiem ze head=master)
+git reset HEAD nazwa plików - cofniecie konkretnego pliku z staging area do working dir ( podwarunkiem ze head=master)
+
+
+git branch - dostepne branche
+git branch nazwa - dodanie nowej branchy
+git checkout nazwa - przesuniecie head na konkretna branche
+git brachn -b nazwa - tworzenie nowej nazwy oraz check na nia
+git merge nazwa branchy - loczenie branchy z master
+
+
+zdalne sprawe.
+
+serwer->lokal
+git clone link https - klonowanie repo na dysk lokalny
+git clone link https moja nazwa - klonowanie repo na dysk lokalny do folderu z nowa nazwa
+
+lokal-> podlaczenie sie pod serwer
+git remote add origin link - podlaczenei folderu pod repo na serwerze
+
+
+
+git remote -v      status zdalnych serwerow
+
+
+git push origin master - wyslanie branch master na serwer repo
+git push -u origin master - zapamietanie branch master na repo
+ 
+git fetch - skopiowanie master origin z serwera repo na dysk lokalny
+git merge origin/master - laczenie origin/master z lokalnym master
+
+git pull  - git fetch + git merge z repo zdalnym
+
+
+
+
+
+
+
+
+
+
+
+
+
