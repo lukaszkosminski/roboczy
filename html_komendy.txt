@@ -1,0 +1,14 @@
+html - jezyk znacznikow
+<head> informacje o stronie, kodowanie i tytul
+<body> tresc strony
+<h1> naglowek pierwszego stopnia
+<p> nowy akapit, przejscie do nowej lini
+<br> sklada sie tylko z znacznika otwierajacego, - enter, nowa linia 
+<header> sekcja naglówkowa
+<article> sekcja z trescia
+<figure> oznaczanie zdjec
+<img src="link"> link zdjecie
+
+
+
+
