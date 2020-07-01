@@ -1,3 +1,4 @@
+cd d: zmiana dysku
 cd dekstop - otworz katalok dekstop
 cd .. - powrot do folderu nadrzednego
 ls - wyswietl pliki i katalogi
@@ -13,7 +14,7 @@ nano plik.txt - stworzenie pliku txt
 
 git status - status plikow (working dir, staging area, repository)
 git add plik.txt - dodanie plik txt do staging area
-git commit - zapisanie plików
+git commit - zapisanie plikÃ³w
 git config --global user.name "lukaszko" - ustawienie nazwy w configu lukaszko
 git config --global user.email "dnb8@o2.pl" - ustawienie email w config
 git config --global core.editor nano - ustawienie w confgigu domyslnego edytora nano
@@ -38,9 +39,9 @@ git log -2   - wyswietlenie 2 ostatnich commitow
 git log --graph - wersja graficzna loga
 
 git reset nr -- soft - cofniecie commitow do staged arena
-git reset nr -- mixed - cofniecie commitow ( oraz plików z staging area) do working dir
+git reset nr -- mixed - cofniecie commitow ( oraz plikÃ³w z staging area) do working dir
 git reset HEAD - cofniecie plikow z staging area do working dir ( podwarunkiem ze head=master)
-git reset HEAD nazwa plików - cofniecie konkretnego pliku z staging area do working dir ( podwarunkiem ze head=master)
+git reset HEAD nazwa plikÃ³w - cofniecie konkretnego pliku z staging area do working dir ( podwarunkiem ze head=master)
 
 
 git branch - dostepne branche
